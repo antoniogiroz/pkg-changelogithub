@@ -1,0 +1,45 @@
+{
+  "name": "@antoniogiroz/pkg-semantic-release",
+  "version": "0.1.0",
+  "description": "This is a package to test semantic-release",
+  "author": "Antonio Giroz",
+  "license": "MIT",
+  "homepage": "https://github.com/antoniogiroz/pkg-changelogithub",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antoniogiroz/pkg-changelogithub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antoniogiroz/pkg-changelogithub/issues"
+  },
+  "keywords": [
+    "typescript",
+    "library",
+    "add",
+    "numbers"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js",
+      "import": "./index.js"
+    }
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "0.39.8",
+    "@antoniogiroz/eslint-config": "1.0.1",
+    "eslint": "8.45.0",
+    "semantic-release": "^21.0.7",
+    "typescript": "5.1.6"
+  }
+}
