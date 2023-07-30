@@ -33,7 +33,7 @@
   "scripts": {
     "lint": "eslint .",
     "build": "tsc",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --branches main"
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.39.8",
